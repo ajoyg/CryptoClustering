@@ -10,7 +10,7 @@ The Crypto_Clustering.pynb Jupyter notebook reads crypto currency data from the 
 6. Use K-Means to for cluster prediction
 7. Plot the clusters in two dimensions, x-axis: PC1, y-axis:PC2.
 
-!(Contrasting the clusters)[]
+![Contrasting the clusters](https://github.com/ajoyg/CryptoClustering/blob/main/images/ClusterPlots.jpg)
 
 ### Summary
 Clusters 0 and 1 are more close to each other after using PCA. With fewer features, the outliers are more cleary defined in their own cluster, for example, the crypto 'celsius-degree-token' has a clear separation with PCA. With the orginal features cluster allocation for 'celsius-degree-token' seems artibitrary at least in 2 dimensions. However, there some loss of information when using PCA, the total explained variance is 89.5%, with PC1 covering 37.2%, PC2 covering 34.7%, and PC3 covering 17.6% respectively.
